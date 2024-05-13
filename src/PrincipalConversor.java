@@ -6,7 +6,8 @@ public class PrincipalConversor {
 
         Scanner leitura = new Scanner(System.in);
         BuscaMoeda moeda = new BuscaMoeda();
-        Moeda convertida;
+        Mensagem mensagem = new Mensagem();
+        Moeda novaMoeda;
         var escolha = 0;
         double valor = 0;
 
@@ -28,20 +29,18 @@ public class PrincipalConversor {
                     System.out.println("|*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*|\n");
                     System.out.print(" Digite o valor que quer converter: ");
                     valor = leitura.nextDouble();
-                    convertida = moeda.BuscaMoeda("BRL","USD",valor);
-                    System.out.println(" " + valor + "reais(BRL) convetido da exatamente " + convertida + "dolares.");
-                    System.out.println(" ");
+                    novaMoeda = moeda.BuscaMoeda("BRL","USD",valor);
+                    mensagem.convertida("brl","usd",valor,novaMoeda);
                     break;
                 case 2:
                     System.out.println("|*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*|\n");
                     System.out.print(" Digite o valor que quer converter: ");
                     valor = leitura.nextDouble();
-                    convertida = moeda.BuscaMoeda("usd","brl",valor);
-                    System.out.println(" " + valor + "reais(BRL) convetido da exatamente " + convertida + "dolares.");
-                    System.out.println(" ");
+                    novaMoeda = moeda.BuscaMoeda("usd","brl",valor);
+                    mensagem.convertida("usd","brl",valor,novaMoeda);
                     break;
                 case 3:
-                    System.out.println();
+
                     break;
                 case 4:
 
