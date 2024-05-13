@@ -41,7 +41,7 @@ public class PrincipalConversor {
                     System.out.println(" ");
                     break;
                 case 3:
-
+                    System.out.println();
                     break;
                 case 4:
 
