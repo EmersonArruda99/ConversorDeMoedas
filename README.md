@@ -27,6 +27,14 @@ Este projeto consiste em um Conversor de Moedas em Java, onde os usuários podem
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um PR (pull request) com melhorias, correções de bugs ou novas funcionalidades.
 
+## 😁 Minha Conquista do Challenger
+
+Olá estou empolgado em compartilhar minha conquista no  Challenger do programa ONE. Concluí o desafio com sucesso e recebi o badge como reconhecimento do meu esforço e dedicação.
+<div align="center">
+  <img src="https://github.com/EmersonArruda99/ConversorDeMoedas/assets/158368726/a1403252-dd7a-4c05-a163-17157272d017" alt="Badge Challenger">
+</div>
+Para mim, este badge representa mais do que apenas uma conquista técnica. É um símbolo do meu compromisso com o aprendizado contínuo e minha capacidade de superar desafios.
+
 ## 📝 Licença
 
 Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
